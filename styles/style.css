@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* -------Full-body-------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+
+}
+/* ----All-starting-text---- */
+
+.title{
+    padding-top: 5px;
+    padding-bottom: 30px;
+    /* padding-left: 80px; */
+    font-size: 20px;
+    color: #562EFF;
+}
+
+/* -----Full-page---- */
+main{
+    padding-top: 36px;
+  padding-left: 280px;
+  padding-right: 280px;
+    margin: 0 auto;
+}
+
+/* -------First-section------ */
+section{
+background-color:#FFFFFF ; 
+padding: 1em;
+margin: 1em;
+border-radius: 10px;
+}
+
+/* -------Top-teachers--------- */
+.Top-teachers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+   /* place-items: center; */
+}
+.teacher, .blog, .latest-courses{
+    display: flex;
+     align-items: center; 
+
+}
+div img{
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: -25px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 24px;
+    
+}
+.blog img{
+    width: 224px;
+    height: 127px;
+}
+.course>p{
+    font-size: 14px;
+    color: #ED6B4F;
+}
+
+.course img{
+    width: 224px;
+    height: 105px;
+
+}
+.course-details{
+    display: flex;
+    
+}
+.field{
+    color: yellow;
+    font-size: 14px;
+}
+.unfield{
+    color: gray;
+    font-size: 14px;
+}
+.rating{
+    padding-left: 10px;
+}
+.clock-time{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+
+
+
+
